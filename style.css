@@ -1,0 +1,62 @@
+body{
+    Background-color: #b948b9cc
+    ;
+}
+
+p{
+    color: #36054d;
+     background-color: #c23aa4d2;
+     padding: 20px;
+     font-size: 24px;
+     Font-family: Arial, sans-serif;
+}
+.card{
+    background-color: #c23aa4d2;
+    border: 1px solid #61558dda;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 40px;
+    Font-family: Arial, sans-serif;
+}
+header{
+    font-size: 32px;
+    font-color: #36054d;
+    padding: 20px;
+    border: 1px solid #61558dda;
+    background-color: #c23aa4d2;
+    border-radius: 5px;
+    Font-family: Arial, sans-serif;
+}
+.main-nav{
+    background-color: #b42065cc;
+    padding: 240px;
+    Font-family: Arial, sans-serif;
+}
+ul{
+    list-style-type: disc;
+    background-color: #c23aa4d2;
+    padding-left: 20px;
+    border: 1px solid #61558dda;
+    font-size: 24px;
+    Font-family: Arial, sans-serif;
+}
+.project-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);    
+    gap:16px;
+}
+@media(min-width:320px){
+    .project-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width:768px){
+    .project-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width:1200px){
+    .project-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

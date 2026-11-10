@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ:wght@100..400&display=swap');
 body{
-    Background-color: #b948b9cc
-    ;
+    Background-color: #b948b9cc;
+    font-family: "Playwrite TZ", cursive;
+
 }
 
 p{
@@ -8,7 +11,7 @@ p{
      background-color: #c23aa4d2;
      padding: 20px;
      font-size: 24px;
-     Font-family: Arial, sans-serif;
+     font-family: "Playwrite TZ", cursive;
 }
 .card{
     background-color: #c23aa4d2;
@@ -16,21 +19,26 @@ p{
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 40px;
-    Font-family: Arial, sans-serif;
+    Font-family: "Playwrite TZ", cursive;
 }
 header{
     font-size: 32px;
-    font-color: #36054d;
+    color: #36054d;
     padding: 20px;
+    margin-bottom: 20px;
     border: 1px solid #61558dda;
     background-color: #c23aa4d2;
     border-radius: 5px;
-    Font-family: Arial, sans-serif;
+    font-family:"Momo Signature", cursive; 
+}
+header h1{
+    font-size: 32px;
+    margin: 0;
 }
 .main-nav{
     background-color: #b42065cc;
     padding: 240px;
-    Font-family: Arial, sans-serif;
+    font-family: "Playwrite TZ", cursive;
 }
 ul{
     list-style-type: disc;
@@ -38,12 +46,16 @@ ul{
     padding-left: 20px;
     border: 1px solid #61558dda;
     font-size: 24px;
-    Font-family: Arial, sans-serif;
+    font-family: "Playwrite TZ", cursive;
 }
 .project-grid{
     display:grid;
     grid-template-columns: repeat(3, 1fr);    
     gap:16px;
+    list-style-position: inside;
+}
+#project-list{
+    border-radius: 8px;
 }
 @media(min-width:320px){
     .project-grid{
@@ -59,4 +71,11 @@ ul{
     .project-grid{
         grid-template-columns: repeat(3, 1fr);
     }
+}
+img {
+    display: block;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }

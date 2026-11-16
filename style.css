@@ -88,7 +88,6 @@ img {
     border-radius: 5px;
     font-family: "Playwrite TZ", cursive;
 }
-
 .contact label,
 .contact input,
 .contact textarea {
@@ -97,13 +96,12 @@ img {
     box-sizing: border-box;
     margin-bottom: 12px;
 }
-
 .contact input,
 .contact textarea {
     padding: 10px;
 }
-
 .contact button {
     padding: 10px 16px;
+    Box-sizing: border-box;
     cursor: pointer;
 }
